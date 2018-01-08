@@ -1,0 +1,113 @@
+<style>
+    
+body {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Back to Demo;
+    font-size: 90px;
+    color: white;
+}
+
+h2 {
+    text-align: left;
+    font-family: Verdana;
+    font-size: 45px;
+    color: white;
+}
+
+h3 {
+    font-family: Verdana;
+    color: MediumVioletRed;
+}
+
+
+nav {
+    text-align: center;
+    font-family: Verdana;
+}
+
+a  {
+    color: PaleVioletRed;
+}
+
+a:hover {
+    color: Plum;
+	}
+
+#food, #running, #outdoors  {
+    border: 10px solid white;
+    box-shadow: 5px 10px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+#info, #me {
+    border: 10px solid white;
+    text-align: center;
+    box-shadow: 5px 10px;
+    border-radius: 5px;
+    padding: 10px;
+}	
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-container {
+  display: flex;
+  background-color: indigo;
+  flex-flow: column;
+  border-radius: 5px;
+}
+
+.flex-container>div {
+  background-color: Plum;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: MediumVioletRed;
+    font-family: Verdana;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+body {
+    background-image: url("http://www.coringrillo.com/wp-content/uploads/2017/06/HD-purple-wallpaper-image-to-use-as-background-135.jpg");
+    font-family: Verdana;
+}
+
+p {
+    font-family: DK Uncle Edward;
+    font-size: 50px;
+    text-align: center;
+    color: MediumVioletRed;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: right; 
+    font-size: 20px;
+}
+
+.flex-container {
+  flex-flow: row;
+  }
+}
+
+</style>
